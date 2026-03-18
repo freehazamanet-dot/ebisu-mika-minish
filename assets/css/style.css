@@ -137,14 +137,20 @@ p{margin-bottom:1em;color:var(--text-mid)}
 /* ==============================
    IMAGE PLACEHOLDERS
    ============================== */
-.img-placeholder{position:relative;overflow:hidden;border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center}
-.img-placeholder::before{content:attr(data-label);font-size:13px;font-weight:600;color:rgba(255,255,255,.7);letter-spacing:.1em;text-align:center;z-index:1;padding:16px}
-.img-placeholder--clinic{background:linear-gradient(135deg,#c9b99a 0%,#a08b6e 50%,#8a7558 100%)}
-.img-placeholder--smile{background:linear-gradient(135deg,#e8d5c4 0%,#c4a882 50%,#b09470 100%)}
-.img-placeholder--doctor{background:linear-gradient(135deg,#d4c4b0 0%,#b8a48e 50%,#9c8870 100%)}
-.img-placeholder--treatment{background:linear-gradient(135deg,#bfc9d6 0%,#8e9eb0 50%,#6b7d92 100%)}
-.img-placeholder--facility{background:linear-gradient(135deg,#d6cec4 0%,#b8aea2 50%,#9a8e82 100%)}
-.img-placeholder--before-after{background:linear-gradient(135deg,#e0d6cc 0%,#c4b6a6 50%,#a89a8a 100%)}
+.img-placeholder{position:relative;overflow:hidden;border-radius:var(--radius-lg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;border:3px dashed rgba(255,255,255,.4);min-height:120px}
+/* Camera icon */
+.img-placeholder::before{content:"\1F4F7";font-size:40px;z-index:1;filter:grayscale(.3);opacity:.7}
+/* Label text */
+.img-placeholder::after{content:attr(data-label);font-size:14px;font-weight:700;color:rgba(255,255,255,.9);letter-spacing:.05em;text-align:center;z-index:1;padding:0 20px;line-height:1.5;background:rgba(0,0,0,.25);backdrop-filter:blur(4px);padding:8px 20px;border-radius:8px;max-width:90%}
+/* Category badge */
+.img-placeholder[data-type]::before{content:attr(data-type) " \1F4F7";font-size:14px;background:rgba(0,0,0,.35);backdrop-filter:blur(4px);padding:6px 14px;border-radius:50px;color:rgba(255,255,255,.85);font-weight:600;letter-spacing:.05em}
+
+.img-placeholder--clinic{background:linear-gradient(135deg,#b8a88e 0%,#8e7d66 50%,#6e5d46 100%)}
+.img-placeholder--smile{background:linear-gradient(135deg,#d4c0a8 0%,#b8986e 50%,#9e7e54 100%)}
+.img-placeholder--doctor{background:linear-gradient(135deg,#c4b4a0 0%,#a8947c 50%,#8c7860 100%)}
+.img-placeholder--treatment{background:linear-gradient(135deg,#a8b8c8 0%,#7e92a8 50%,#5e7690 100%)}
+.img-placeholder--facility{background:linear-gradient(135deg,#c0b8ae 0%,#a09888 50%,#807060 100%)}
+.img-placeholder--before-after{background:linear-gradient(135deg,#d0c4b8 0%,#b4a494 50%,#988474 100%)}
 
 /* Aspect ratios */
 .img-placeholder--16x9{aspect-ratio:16/9}

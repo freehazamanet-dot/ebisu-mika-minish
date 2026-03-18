@@ -49,7 +49,7 @@
 <!-- ========== HERO ========== -->
 <section class="hero">
   <div class="hero__bg hero__bg--placeholder">
-    <div class="img-placeholder img-placeholder--clinic" style="width:100%;height:100%;border-radius:0" data-label="クリニック外観・受付写真"></div>
+    <div class="img-placeholder img-placeholder--clinic" data-type="クリニック" style="width:100%;height:100%;border-radius:0" data-label="クリニック外観・受付写真"></div>
   </div>
   <div class="hero__overlay hero__overlay--left"></div>
   <div class="hero__content hero__content--left">
@@ -83,7 +83,7 @@
     <div class="split">
       <div class="split__img-wrap slide-in-left">
         <div class="split__img">
-          <div class="img-placeholder img-placeholder--smile" data-label="ミニッシュ施術後の笑顔写真" style="aspect-ratio:4/3"></div>
+          <div class="img-placeholder img-placeholder--smile" data-type="笑顔" data-label="ミニッシュ施術後の笑顔写真" style="aspect-ratio:4/3"></div>
         </div>
       </div>
       <div class="split__text slide-in-right">
@@ -173,7 +173,7 @@
     <div class="visual-cards">
       <div class="visual-card fade-in">
         <div class="visual-card__img">
-          <div class="img-placeholder img-placeholder--smile" data-label="美しい笑顔の女性"></div>
+          <div class="img-placeholder img-placeholder--smile" data-type="笑顔" data-label="美しい笑顔の女性"></div>
           <span class="visual-card__tag">人気No.1</span>
         </div>
         <div class="visual-card__body">
@@ -184,7 +184,7 @@
       </div>
       <div class="visual-card fade-in fade-in-delay-1">
         <div class="visual-card__img">
-          <div class="img-placeholder img-placeholder--treatment" data-label="矯正治療イメージ"></div>
+          <div class="img-placeholder img-placeholder--treatment" data-type="治療" data-label="矯正治療イメージ"></div>
         </div>
         <div class="visual-card__body">
           <h3>歯並びを整えたい</h3>
@@ -194,7 +194,7 @@
       </div>
       <div class="visual-card fade-in fade-in-delay-2">
         <div class="visual-card__img">
-          <div class="img-placeholder img-placeholder--facility" data-label="清潔な診療室"></div>
+          <div class="img-placeholder img-placeholder--facility" data-type="設備" data-label="清潔な診療室"></div>
         </div>
         <div class="visual-card__body">
           <h3>むし歯・歯が痛い</h3>
@@ -204,7 +204,7 @@
       </div>
       <div class="visual-card fade-in">
         <div class="visual-card__img">
-          <div class="img-placeholder img-placeholder--clinic" data-label="やさしい雰囲気の院内"></div>
+          <div class="img-placeholder img-placeholder--clinic" data-type="クリニック" data-label="やさしい雰囲気の院内"></div>
         </div>
         <div class="visual-card__body">
           <h3>子どもの歯が心配</h3>
@@ -214,7 +214,7 @@
       </div>
       <div class="visual-card fade-in fade-in-delay-1">
         <div class="visual-card__img">
-          <div class="img-placeholder img-placeholder--treatment" data-label="クリーニングイメージ"></div>
+          <div class="img-placeholder img-placeholder--treatment" data-type="治療" data-label="クリーニングイメージ"></div>
         </div>
         <div class="visual-card__body">
           <h3>予防・クリーニング</h3>
@@ -224,7 +224,7 @@
       </div>
       <div class="visual-card fade-in fade-in-delay-2">
         <div class="visual-card__img">
-          <div class="img-placeholder img-placeholder--before-after" data-label="ホワイトニングイメージ"></div>
+          <div class="img-placeholder img-placeholder--before-after" data-type="Before/After" data-label="ホワイトニングイメージ"></div>
         </div>
         <div class="visual-card__body">
           <h3>歯を白くしたい</h3>
@@ -241,7 +241,7 @@
   <div class="container">
     <div class="doctor-section fade-in">
       <div class="doctor-section__photo">
-        <div class="img-placeholder img-placeholder--doctor" data-label="院長プロフィール写真" style="aspect-ratio:3/4;border-radius:20px"></div>
+        <div class="img-placeholder img-placeholder--doctor" data-type="ドクター" data-label="院長プロフィール写真" style="aspect-ratio:3/4;border-radius:20px"></div>
         <div class="doctor-section__photo-accent"></div>
       </div>
       <div class="doctor-section__text">
@@ -309,10 +309,10 @@
       <div class="section-header__line"></div>
     </div>
     <div class="gallery fade-in">
-      <div class="gallery__item"><div class="img-placeholder img-placeholder--clinic" data-label="受付・待合室" style="aspect-ratio:4/3"></div></div>
-      <div class="gallery__item"><div class="img-placeholder img-placeholder--facility" data-label="完全個室の診療室" style="aspect-ratio:4/3"></div></div>
-      <div class="gallery__item"><div class="img-placeholder img-placeholder--treatment" data-label="セレック（CAD/CAM）" style="aspect-ratio:4/3"></div></div>
-      <div class="gallery__item"><div class="img-placeholder img-placeholder--facility" data-label="カウンセリングルーム" style="aspect-ratio:4/3"></div></div>
+      <div class="gallery__item"><div class="img-placeholder img-placeholder--clinic" data-type="クリニック" data-label="受付・待合室" style="aspect-ratio:4/3"></div></div>
+      <div class="gallery__item"><div class="img-placeholder img-placeholder--facility" data-type="設備" data-label="完全個室の診療室" style="aspect-ratio:4/3"></div></div>
+      <div class="gallery__item"><div class="img-placeholder img-placeholder--treatment" data-type="治療" data-label="セレック（CAD/CAM）" style="aspect-ratio:4/3"></div></div>
+      <div class="gallery__item"><div class="img-placeholder img-placeholder--facility" data-type="設備" data-label="カウンセリングルーム" style="aspect-ratio:4/3"></div></div>
     </div>
     <div style="text-align:center;margin-top:32px" class="fade-in">
       <a href="clinic/facility.html" class="btn btn--outline-dark btn--arrow">施設・設備をもっと見る</a>
@@ -325,7 +325,7 @@
   <div class="container">
     <div class="split">
       <div class="slide-in-left">
-        <div class="img-placeholder img-placeholder--clinic" data-label="クリニック外観 / Google Map" style="aspect-ratio:4/3;border-radius:20px"></div>
+        <div class="img-placeholder img-placeholder--clinic" data-type="クリニック" data-label="クリニック外観 / Google Map" style="aspect-ratio:4/3;border-radius:20px"></div>
       </div>
       <div class="slide-in-right">
         <span class="en-label">Information</span>
