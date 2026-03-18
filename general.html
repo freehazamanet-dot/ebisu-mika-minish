@@ -7,57 +7,74 @@
 <meta name="description" content="恵比寿駅徒歩3分の恵比寿ミカ歯科クリニック。一般歯科では表面麻酔・極細針・電動注射器を用いた無痛治療を実施。削らないむし歯治療カリソルブにも対応し、できるだけ歯を残す治療をご提供します。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <header class="header" id="header">
   <div class="header__inner">
-    <a href="top.html" class="header__logo">
+    <a href="index.html" class="header__logo">
       <div class="header__logo-icon">M</div>
       <div class="header__logo-text">恵比寿ミカ歯科クリニック<span>EBISU MIKA DENTAL CLINIC</span></div>
     </a>
     <nav class="nav">
-      <a href="top.html">トップ</a>
+      <a href="index.html">トップ</a>
       <a href="first-visit.html">初めての方へ</a>
       <a href="clinic/index.html">クリニック紹介</a>
       <a href="minish/index.html">ミニッシュ</a>
       <a href="orthodontics/index.html">矯正歯科</a>
       <a href="esthetic.html">審美歯科</a>
       <a href="price.html">料金表</a>
-      <a href="#cta" class="nav__cta">ご予約</a>
+      <a href="contact.html" class="nav__cta">ご予約</a>
     </nav>
     <button class="hamburger" id="hamburger" aria-label="メニューを開く"><span></span><span></span><span></span></button>
   </div>
 </header>
 <div class="mobile-nav" id="mobileNav">
   <button class="close-menu" id="closeMenu" aria-label="メニューを閉じる">&times;</button>
-  <a href="top.html">トップ</a>
+  <a href="index.html">トップ</a>
   <a href="first-visit.html">初めての方へ</a>
   <a href="clinic/index.html">クリニック紹介</a>
   <a href="minish/index.html">ミニッシュ</a>
   <a href="orthodontics/index.html">矯正歯科</a>
   <a href="esthetic.html">審美歯科</a>
   <a href="price.html">料金表</a>
-  <a href="#cta" class="nav__cta">ご予約</a>
+  <a href="contact.html" class="nav__cta">ご予約</a>
 </div>
 
 <div class="breadcrumb">
-  <div class="container"><div class="breadcrumb__inner"><a href="top.html">トップ</a><span>›</span><span>一般歯科</span></div></div>
+  <div class="container"><div class="breadcrumb__inner"><a href="index.html">トップ</a><span>›</span><span>一般歯科</span></div></div>
 </div>
 <div class="page-header">
   <div class="container">
+    <span class="en-label">General Dentistry</span>
     <h1>一般歯科</h1>
-    <p>「痛いのが怖くて歯医者に行けない」その気持ちに寄り添います。恵比寿ミカ歯科クリニックでは、無痛治療への徹底したこだわりと、できるだけ削らない・抜かないむし歯治療で、大切な歯を守ります。</p>
+    <p>「痛いのが怖くて歯医者に行けない」その気持ちに寄り添います。無痛治療への徹底したこだわりと、できるだけ削らない・抜かないむし歯治療で、大切な歯を守ります。</p>
   </div>
 </div>
 
-<!-- むし歯の進行と治療 -->
+<!-- Hero Split -->
 <section class="section">
   <div class="container">
+    <div class="split">
+      <div class="split__img-wrap slide-in-left">
+        <div class="split__img"><div class="img-placeholder img-placeholder--clinic" data-label="清潔感のある診療室" style="aspect-ratio:4/3"></div></div>
+      </div>
+      <div class="split__text slide-in-right">
+        <span class="en-label">Painless</span>
+        <h2>「痛くない」を、あたりまえに</h2>
+        <p>「歯医者が怖い」「何年も行けていない」――そんな方こそ、当院にお越しください。麻酔の段階から痛みを感じさせない工夫を何重にも重ね、「ここなら通える」と思っていただける治療をお約束します。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- むし歯の進行と治療 -->
+<section class="section section--cream">
+  <div class="container">
     <div class="section-header fade-in">
-      <span class="section-header__label">Cavity Stages</span>
+      <span class="en-label">Cavity Stages</span>
       <h2>むし歯の進行と治療</h2>
       <div class="section-header__line"></div>
     </div>
@@ -66,35 +83,35 @@
         <div class="step__number">CO</div>
         <div class="step__content">
           <h3>初期むし歯（CO）</h3>
-          <p>歯の表面が白く濁って見える、ごく初期の段階です。まだ穴は開いておらず、痛みもありません。この段階なら歯を削る必要はなく、フッ素塗布や正しいブラッシングで再石灰化を促すことで、自然に回復が期待できます。定期検診で見つかることが多いため、予防歯科の受診が重要です。</p>
+          <p>歯の表面が白く濁るごく初期の段階。まだ穴は開いておらず、痛みもありません。フッ素塗布と正しいブラッシングで再石灰化を促し、削らずに回復を目指せます。定期検診で早期発見することが大切です。</p>
         </div>
       </div>
       <div class="step">
         <div class="step__number">C1</div>
         <div class="step__content">
           <h3>エナメル質のむし歯（C1）</h3>
-          <p>むし歯がエナメル質（歯の一番外側の層）にとどまっている状態です。自覚症状はほとんどなく、検診で発見されるケースがほとんどです。削る範囲は最小限で済み、白い詰め物（コンポジットレジン）で修復するため、見た目も自然に仕上がります。治療時間も短く、お体への負担がほとんどありません。</p>
+          <p>エナメル質にとどまる状態。自覚症状はほとんどなく、検診で発見されます。削る範囲は最小限、白い詰め物で修復するため見た目も自然です。</p>
         </div>
       </div>
       <div class="step">
         <div class="step__number">C2</div>
         <div class="step__content">
           <h3>象牙質のむし歯（C2）</h3>
-          <p>むし歯がエナメル質を超え、その内側の象牙質まで進行した状態です。「冷たいものがしみる」「甘いものを食べると痛い」といった症状が出始めます。この段階では、詰め物（インレー）やセラミックによる修復治療を行います。当院ではセレックを導入しており、条件が合えば最短当日でセラミックの修復物をセットすることも可能です。</p>
+          <p>「冷たいものがしみる」「甘いもので痛い」といった症状が出始めます。詰め物やセラミックで修復。当院のセレックなら、条件次第で最短当日にセラミックをセットできます。</p>
         </div>
       </div>
       <div class="step">
         <div class="step__number">C3</div>
         <div class="step__content">
           <h3>神経に達するむし歯（C3）</h3>
-          <p>むし歯が歯の神経（歯髄）にまで到達した状態です。何もしなくてもズキズキと激しい痛みが出ることがあります。この段階では根管治療（神経の治療）が必要となり、丁寧に感染部分を除去した後、被せ物（クラウン）で歯を修復します。治療回数は増えますが、歯を抜かずに残すために大切な治療です。</p>
+          <p>神経まで到達し、ズキズキとした激しい痛みが出ます。根管治療で感染部分を除去し、被せ物で歯を修復。治療回数は増えますが、歯を残すために大切な治療です。</p>
         </div>
       </div>
       <div class="step">
         <div class="step__number">C4</div>
         <div class="step__content">
           <h3>歯冠が崩壊したむし歯（C4）</h3>
-          <p>歯の大部分が崩壊し、歯根だけが残っている重度の状態です。神経はすでに死んでいるため痛みを感じないこともありますが、根の先に膿がたまるなどの深刻なトラブルにつながります。可能な限り歯の保存を試みますが、やむを得ず抜歯となった場合は、入れ歯・ブリッジ・インプラントなどの選択肢から、患者さまのご希望に合った方法で噛む力と見た目を回復します。</p>
+          <p>歯の大部分が崩壊した重度の状態。可能な限り保存を試みますが、抜歯となった場合は入れ歯・ブリッジ・インプラントから最適な方法で噛む力と見た目を回復します。</p>
         </div>
       </div>
     </div>
@@ -102,68 +119,115 @@
 </section>
 
 <!-- 無痛治療への取り組み -->
-<section class="section section--cream">
+<section class="section">
   <div class="container">
     <div class="section-header fade-in">
-      <span class="section-header__label">Painless Treatment</span>
+      <span class="en-label">Painless Treatment</span>
       <h2>無痛治療への取り組み</h2>
       <div class="section-header__line"></div>
     </div>
-    <p style="text-align:center;max-width:600px;margin:0 auto 32px" class="fade-in">「歯医者が怖い」「痛いのが苦手で何年も行けていない」――そんなお気持ちは、恵比寿ミカ歯科クリニックにとって最も大切に受け止めたい声です。当院では、麻酔の段階から痛みを感じさせない工夫を何重にも重ね、「ここなら通える」と感じていただける無痛治療をお約束します。</p>
+
+    <div class="split" style="margin-bottom:48px">
+      <div class="split__img-wrap slide-in-left">
+        <div class="split__img"><div class="img-placeholder img-placeholder--treatment" data-label="表面麻酔・極細針・電動注射器" style="aspect-ratio:4/3;border-radius:20px"></div></div>
+      </div>
+      <div class="split__text slide-in-right">
+        <span class="en-label">Our Approach</span>
+        <h2>4つの痛み対策で安心</h2>
+        <p>表面麻酔、33ゲージ極細針、電動注射器、体温に温めた麻酔液。この4つの工夫を重ねることで、「いつ刺したかわからなかった」とお声をいただくほどの無痛治療を実現しています。</p>
+      </div>
+    </div>
+
     <div class="features">
       <div class="feature-card fade-in">
         <div class="feature-card__icon">💊</div>
         <h3>表面麻酔</h3>
-        <p>注射の前に、歯ぐきにジェル状の麻酔薬をじっくり塗布します。これにより粘膜の感覚が鈍くなり、針を刺す際の「チクッ」とした痛みを大幅に軽減できます。「注射が怖い」という方にこそ知っていただきたい、最初のステップです。</p>
+        <p>注射前にジェル状の麻酔薬を塗布。粘膜の感覚を鈍くし、針を刺す際の「チクッ」を大幅に軽減します。</p>
       </div>
       <div class="feature-card fade-in fade-in-delay-1">
         <div class="feature-card__icon">💉</div>
         <h3>極細針の使用</h3>
-        <p>当院では33ゲージという歯科用で最も細い針を使用しています。針が細いほど組織への刺激が少なくなるため、注射時の痛みを最小限に抑えることができます。患者さまから「いつ刺したかわからなかった」というお声をいただくことも。</p>
+        <p>歯科用で最も細い33ゲージの針を使用。組織への刺激を最小限に抑え、注射時の痛みをほぼ感じさせません。</p>
       </div>
       <div class="feature-card fade-in fade-in-delay-2">
         <div class="feature-card__icon">🔧</div>
         <h3>電動注射器</h3>
-        <p>コンピュータ制御の電動注射器を使い、麻酔液を一定の速度・圧力でゆっくりと注入します。手動の注射器では圧力のムラが生じやすく、それが痛みの原因になりますが、電動注射器ならその心配がありません。お体への負担を極力減らすための設備です。</p>
+        <p>コンピュータ制御で一定の速度・圧力でゆっくり注入。手動のムラによる痛みを防ぎます。</p>
       </div>
       <div class="feature-card fade-in">
         <div class="feature-card__icon">🌡️</div>
         <h3>温めた麻酔液</h3>
-        <p>麻酔液と体温の温度差があると、注入時に痛みや違和感の原因になります。当院では麻酔液を37度前後の体温に近い温度まで温めてから使用し、注入時の不快感を最小限にしています。一つひとつの「小さな配慮」の積み重ねが、無痛治療を支えています。</p>
+        <p>37度前後の体温に近い温度に温めて使用。温度差による不快感を最小限にしています。</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- カリソルブ -->
-<section class="section">
+<section class="section section--cream">
   <div class="container">
     <div class="section-header fade-in">
-      <span class="section-header__label">Carisolv</span>
+      <span class="en-label">Carisolv</span>
       <h2>カリソルブ ー 削らないむし歯治療</h2>
       <div class="section-header__line"></div>
     </div>
-    <div style="max-width:760px;margin:0 auto" class="fade-in">
-      <p>「むし歯治療=ドリルで削る」というイメージをお持ちではありませんか？ <strong>カリソルブ</strong>は、スウェーデンで開発された「削らないむし歯治療」です。特殊な薬液をむし歯の部分に塗布すると、むし歯に侵された組織だけが軟らかくなり、専用の手用器具でやさしく取り除くことができます。恵比寿エリアでカリソルブに対応している歯科医院は限られており、「できるだけ削りたくない」とお考えの方にぜひ知っていただきたい治療法です。</p>
-      <div class="reasons" style="margin-top:24px">
+
+    <div class="split">
+      <div class="split__img-wrap slide-in-left">
+        <div class="split__img"><div class="img-placeholder img-placeholder--treatment" data-label="カリソルブ治療の様子" style="aspect-ratio:4/3;border-radius:20px"></div></div>
+      </div>
+      <div class="split__text slide-in-right">
+        <span class="en-label">No Drill</span>
+        <h2>ドリルを使わない新しい選択肢</h2>
+        <p>スウェーデン発の「削らないむし歯治療」カリソルブ。特殊な薬液がむし歯部分だけを軟らかくし、専用器具でやさしく除去。恵比寿エリアで対応できる歯科医院は限られています。</p>
+      </div>
+    </div>
+
+    <div style="max-width:760px;margin:32px auto 0" class="fade-in">
+      <div class="reasons">
         <div class="reason">
           <div class="reason__icon">✓</div>
           <h3>ドリル不要</h3>
-          <p>ドリルをほとんど使わないため、あの「キーン」という音や振動がありません。歯科特有の音が苦手な方にも安心です</p>
+          <p>「キーン」という音や振動がないため、歯科特有の音が苦手な方にも安心です</p>
         </div>
         <div class="reason">
           <div class="reason__icon">✓</div>
           <h3>健康な歯を守る</h3>
-          <p>薬液はむし歯に侵された部分にのみ作用するため、健康な歯質を削ってしまう心配がありません。ご自身の歯を最大限に残せます</p>
+          <p>薬液はむし歯部分にのみ作用。健康な歯質を削る心配がなく、ご自身の歯を最大限に残せます</p>
         </div>
         <div class="reason">
           <div class="reason__icon">✓</div>
           <h3>痛みが少ない</h3>
-          <p>ドリルの刺激がないため、多くのケースで麻酔なし、または少量の麻酔のみで処置が完了します。お子さまや痛みに敏感な方にもおすすめです</p>
+          <p>多くのケースで麻酔なし、または少量の麻酔のみで処置が完了。お子さまにもおすすめです</p>
         </div>
       </div>
       <div class="note" style="margin-top:24px">
-        ※カリソルブは自由診療です。C1〜C2レベルのむし歯に適応しますが、むし歯の大きさや位置によって使用できない場合もあります。適応かどうかはカウンセリング時に丁寧にご説明いたしますので、まずはお気軽にご相談ください。
+        ※カリソルブは自由診療です。C1〜C2レベルのむし歯に適応しますが、むし歯の大きさや位置によって使用できない場合もあります。適応かどうかはカウンセリング時にご説明いたします。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 患者さまの声 -->
+<section class="section">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="en-label">Voice</span>
+      <h2>患者さまの声</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="features">
+      <div class="feature-card fade-in">
+        <p style="font-style:italic;line-height:1.8">「10年以上歯医者に行けなかったのですが、本当に痛くなくて驚きました。もっと早く来ればよかったです。」</p>
+        <p style="margin-top:12px;font-size:14px;color:#999">30代女性・会社員</p>
+      </div>
+      <div class="feature-card fade-in fade-in-delay-1">
+        <p style="font-style:italic;line-height:1.8">「カリソルブで治療してもらいました。ドリルの音がないだけでこんなに安心できるとは思いませんでした。」</p>
+        <p style="margin-top:12px;font-size:14px;color:#999">40代男性・経営者</p>
+      </div>
+      <div class="feature-card fade-in fade-in-delay-2">
+        <p style="font-style:italic;line-height:1.8">「先生がとても丁寧に説明してくださり、治療の不安がなくなりました。今では定期検診にも通っています。」</p>
+        <p style="margin-top:12px;font-size:14px;color:#999">20代女性・接客業</p>
       </div>
     </div>
   </div>
@@ -176,7 +240,7 @@
       <div class="acid-banner__icon">🛡️</div>
       <div class="acid-banner__text">
         <h3>むし歯を繰り返さないために ― 治療のその先へ</h3>
-        <p>せっかく治療した歯を、再びむし歯にしてしまうのはとてももったいないことです。むし歯は「治したら終わり」ではなく、再発を防ぐことこそが本当のゴールです。当院では予防歯科に力を入れており、3〜4ヶ月に1回のプロフェッショナルクリーニングで、むし歯ゼロのお口を一緒に目指します。恵比寿でのお仕事帰りやお買い物のついでに、ぜひお立ち寄りください。</p>
+        <p>むし歯は「治したら終わり」ではなく、再発を防ぐことが本当のゴール。3〜4ヶ月に1回のプロフェッショナルクリーニングで、むし歯ゼロのお口を一緒に目指します。</p>
         <a href="preventive.html" class="btn btn--primary" style="margin-top:12px">予防歯科について</a>
       </div>
     </div>
@@ -187,14 +251,14 @@
 <section class="cta-section" id="cta">
   <div class="container">
     <h2>ご予約・お問い合わせ</h2>
-    <p>むし歯の痛みや「しみる」「違和感がある」といった気になる症状はございませんか？ 早期発見・早期治療が、歯を守る一番の近道です。恵比寿駅東口から徒歩3分、お気軽にご相談ください。</p>
+    <p>むし歯の痛みや「しみる」「違和感がある」といった症状はございませんか？ 早期発見・早期治療が、歯を守る一番の近道です。恵比寿駅東口から徒歩3分、お気軽にご相談ください。</p>
     <div>
-      <a href="tel:03XXXXXXXX" class="btn btn--white btn--lg">📞 03-XXXX-XXXX</a>
-      <a href="#" class="btn btn--primary btn--lg">Web予約はこちら</a>
+      <a href="tel:03XXXXXXXX" class="btn btn--white btn--lg">03-XXXX-XXXX</a>
+      <a href="contact.html" class="btn btn--primary btn--lg">Web予約はこちら</a>
     </div>
     <div class="cta-info">
-      <span>📍 東京都渋谷区恵比寿1-22-23（恵比寿駅東口 徒歩3分）</span>
-      <span>🕐 平日 10:00〜19:00 / 土曜 10:00〜17:00</span>
+      <span>東京都渋谷区恵比寿1-22-23（恵比寿駅東口 徒歩3分）</span>
+      <span>平日 10:00〜19:00 / 土曜 10:00〜17:00</span>
       <span>休診: 木曜・日曜・祝日</span>
     </div>
   </div>
@@ -205,33 +269,38 @@
     <div class="footer__inner">
       <div class="footer__brand">
         <h3>恵比寿ミカ歯科クリニック</h3>
-        <p>〒150-0013<br>東京都渋谷区恵比寿1-22-23<br>恵比寿駅東口 徒歩3分</p>
+        <span class="footer__brand-en">EBISU MIKA DENTAL CLINIC</span>
+        <p style="margin-top:12px">〒150-0013<br>東京都渋谷区恵比寿1-22-23<br>恵比寿駅東口 徒歩3分</p>
       </div>
       <div class="footer__nav">
         <div class="footer__nav-col">
-          <h4>診療メニュー</h4>
+          <h4>TREATMENT</h4>
           <a href="minish/index.html">ミニッシュ</a>
           <a href="orthodontics/index.html">矯正歯科</a>
           <a href="esthetic.html">審美歯科</a>
+          <a href="whitening.html">ホワイトニング</a>
           <a href="general.html">一般歯科</a>
-          <a href="pediatric.html">小児歯科</a>
           <a href="preventive.html">予防歯科</a>
         </div>
         <div class="footer__nav-col">
-          <h4>クリニック情報</h4>
+          <h4>CLINIC</h4>
           <a href="first-visit.html">初めての方へ</a>
           <a href="clinic/index.html">クリニック紹介</a>
-          <a href="clinic/doctor.html">医師紹介</a>
-          <a href="clinic/access.html">アクセス・診療時間</a>
+          <a href="clinic/doctor.html">院長紹介</a>
+          <a href="clinic/access.html">アクセス</a>
           <a href="price.html">料金表</a>
+          <a href="contact.html">ご予約</a>
         </div>
       </div>
     </div>
-    <div class="footer__bottom">&copy; 2026 恵比寿ミカ歯科クリニック All Rights Reserved.</div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 恵比寿ミカ歯科クリニック</span>
+      <div class="footer__bottom-links"><a href="privacy.html">プライバシーポリシー</a></div>
+    </div>
   </div>
 </footer>
 
-<div class="sticky-cta"><div class="sticky-cta__inner"><a href="tel:03XXXXXXXX" class="btn btn--outline btn--sm">📞 電話予約</a><a href="#" class="btn btn--primary btn--sm">Web予約</a></div></div>
+<div class="sticky-cta"><div class="sticky-cta__inner"><a href="tel:03XXXXXXXX" class="btn btn--outline-dark btn--sm">電話予約</a><a href="contact.html" class="btn btn--primary btn--sm">Web予約</a></div></div>
 <button class="scroll-top" id="scrollTop" aria-label="トップに戻る">↑</button>
 
 <script>
@@ -241,8 +310,8 @@ hamburger.addEventListener('click',()=>mobileNav.classList.add('open'));closeMen
 mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));
 const scrollTopBtn=document.getElementById('scrollTop');window.addEventListener('scroll',()=>{scrollTopBtn.classList.toggle('visible',window.scrollY>600)});
 scrollTopBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-const observer=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.1});
-document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+const observer=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.fade-in,.slide-in-left,.slide-in-right,.scale-in').forEach(el=>observer.observe(el));
 </script>
 
 </body>

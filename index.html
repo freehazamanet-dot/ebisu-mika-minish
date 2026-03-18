@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>恵比寿ミカ歯科クリニック｜恵比寿駅徒歩3分・女性院長の歯科医院｜審美歯科・矯正・ミニッシュ</title>
-<meta name="description" content="恵比寿駅東口徒歩3分の歯科医院。女性院長が完全個室で丁寧に診療。削らないラミネートベニア「ミニッシュ」恵比寿対応院。セレックによるセラミック最短治療、矯正認定医在籍。審美歯科・一般歯科・小児歯科・予防歯科。土曜診療対応で通いやすい恵比寿の歯医者です。">
+<meta name="description" content="恵比寿駅東口徒歩3分の歯科医院。女性院長が完全個室で丁寧に診療。削らないラミネートベニア「ミニッシュ」恵比寿対応院。セレックによるセラミック最短治療、矯正認定医在籍。審美歯科・一般歯科・小児歯科・予防歯科。土曜診療対応。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -15,310 +15,397 @@
 <!-- Header -->
 <header class="header" id="header">
   <div class="header__inner">
-    <a href="top.html" class="header__logo">
+    <a href="index.html" class="header__logo">
       <div class="header__logo-icon">M</div>
       <div class="header__logo-text">恵比寿ミカ歯科クリニック<span>EBISU MIKA DENTAL CLINIC</span></div>
     </a>
     <nav class="nav">
-      <a href="top.html" class="active">トップ</a>
+      <a href="index.html" class="active">トップ</a>
       <a href="first-visit.html">初めての方へ</a>
       <a href="clinic/index.html">クリニック紹介</a>
       <a href="minish/index.html">ミニッシュ</a>
       <a href="orthodontics/index.html">矯正歯科</a>
       <a href="esthetic.html">審美歯科</a>
       <a href="price.html">料金表</a>
-      <a href="#cta" class="nav__cta">ご予約</a>
+      <a href="contact.html" class="nav__cta">ご予約</a>
     </nav>
     <button class="hamburger" id="hamburger" aria-label="メニューを開く">
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
-
-<!-- Mobile Nav -->
 <div class="mobile-nav" id="mobileNav">
   <button class="close-menu" id="closeMenu" aria-label="メニューを閉じる">&times;</button>
-  <a href="top.html">トップ</a>
+  <a href="index.html">トップ</a>
   <a href="first-visit.html">初めての方へ</a>
   <a href="clinic/index.html">クリニック紹介</a>
   <a href="minish/index.html">ミニッシュ</a>
   <a href="orthodontics/index.html">矯正歯科</a>
   <a href="esthetic.html">審美歯科</a>
   <a href="price.html">料金表</a>
-  <a href="#cta" class="nav__cta">ご予約</a>
+  <a href="contact.html" class="nav__cta">ご予約</a>
 </div>
 
-<!-- Hero -->
+<!-- ========== HERO ========== -->
 <section class="hero">
-  <div class="hero__deco hero__deco--1"></div>
-  <div class="hero__deco hero__deco--2"></div>
-  <div class="hero__content">
+  <div class="hero__bg hero__bg--placeholder">
+    <div class="img-placeholder img-placeholder--clinic" style="width:100%;height:100%;border-radius:0" data-label="クリニック外観・受付写真"></div>
+  </div>
+  <div class="hero__overlay hero__overlay--left"></div>
+  <div class="hero__content hero__content--left">
     <span class="hero__badge">EBISU MIKA DENTAL CLINIC</span>
-    <h1>「歯を削りたくない」に、<br><em>応える歯科がここに。</em></h1>
-    <p class="hero__sub">恵比寿の女性院長が、完全個室であなただけの治療を。<br>削らないミニッシュ・セレックセラミック最短治療・矯正認定医在籍<br>恵比寿駅東口 徒歩3分／完全個室／土曜診療</p>
+    <h1 class="text-white">歯を削りたくない、に<br>応える歯科が<br><em>ここにある。</em></h1>
+    <p class="hero__sub text-white">恵比寿駅東口 徒歩3分。<br>女性院長が完全個室で、あなただけの治療を。<br>削らない審美治療「ミニッシュ」恵比寿対応院。</p>
     <div class="hero__cta-group">
-      <a href="#cta" class="btn btn--primary btn--lg">ご予約・お問い合わせ</a>
+      <a href="contact.html" class="btn btn--primary btn--lg">無料相談を予約する</a>
       <a href="first-visit.html" class="btn btn--outline btn--lg">初めての方へ</a>
     </div>
-  </div>
-</section>
-
-<!-- ミニッシュ訴求 -->
-<section class="section section--cream">
-  <div class="container">
-    <div class="section-header fade-in">
-      <span class="section-header__label">Minish</span>
-      <h2>今だから選べる新しい選択肢 ―― 削らないラミネートベニア「ミニッシュ」</h2>
-      <div class="section-header__line"></div>
-    </div>
-    <div style="max-width:760px;margin:0 auto" class="fade-in">
-      <p>「歯の色が気になるけれど、削るのは怖い」「前歯のすき間を手軽に整えたい」――そんなお悩みに応えるのが、韓国発・世界16万件以上の臨床実績を持つ「ミニッシュ」です。歯をほとんど削ることなく、薄さわずか0.3mmのセラミックシェルを貼り付けるだけで、歯の色・形・すき間を自然に美しく整えます。</p>
-      <p style="margin-top:12px">恵比寿ミカ歯科クリニックでは、女性院長がセレック（CAD/CAMシステム）を用いて院内でセラミックを設計・作製。外部の技工所を介さないため、スピーディーかつ精密な仕上がりをお届けできます。「ミニッシュ」は恵比寿エリアでまだ取り扱いの少ない先進治療。歯を傷つけずに理想の口元を手に入れたい方は、ぜひ一度ご相談ください。</p>
-      <div style="text-align:center;margin-top:24px">
-        <a href="minish/index.html" class="btn btn--primary">ミニッシュについて詳しく見る</a>
+    <div class="hero__stats">
+      <div class="hero__stat">
+        <span class="hero__stat-number">160,000<span style="font-size:16px">+</span></span>
+        <div class="hero__stat-label">ミニッシュ世界症例数</div>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-number">3<span style="font-size:16px">min</span></span>
+        <div class="hero__stat-label">恵比寿駅から徒歩</div>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-number">100<span style="font-size:16px">%</span></span>
+        <div class="hero__stat-label">完全個室プライベート空間</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ペルソナ別導線 -->
+<!-- ========== ミニッシュ訴求 (Split Layout) ========== -->
 <section class="section">
   <div class="container">
-    <div class="section-header fade-in">
-      <span class="section-header__label">Menu</span>
-      <h2>あなたのお悩みは何ですか？</h2>
-      <div class="section-header__line"></div>
-    </div>
-    <div class="features">
-      <div class="feature-card fade-in">
-        <div class="feature-card__icon">✨</div>
-        <h3>歯を美しくしたい</h3>
-        <p>結婚式を控えて歯の色が気になる、写真を撮るたびに口元が気になる――そんな方へ。ミニッシュ・セレックセラミック・ホワイトニングなど、恵比寿の審美歯科メニューで、自信を持って笑える口元を実現します。女性院長が審美の視点で丁寧にカウンセリングいたします。</p>
-        <a href="esthetic.html" class="btn btn--outline" style="margin-top:12px">審美歯科を見る</a>
+    <div class="split">
+      <div class="split__img-wrap slide-in-left">
+        <div class="split__img">
+          <div class="img-placeholder img-placeholder--smile" data-label="ミニッシュ施術後の笑顔写真" style="aspect-ratio:4/3"></div>
+        </div>
       </div>
-      <div class="feature-card fade-in fade-in-delay-1">
-        <div class="feature-card__icon">😁</div>
-        <h3>歯並びを整えたい</h3>
-        <p>「目立たない矯正はできる？」「大人になってからでも間に合う？」とお悩みの方。当院は矯正認定医が在籍し、ワイヤー矯正からマウスピース矯正まで幅広く対応。お仕事やライフスタイルに合わせた矯正プランをご提案します。完全個室での相談なので人目も気になりません。</p>
-        <a href="orthodontics/index.html" class="btn btn--outline" style="margin-top:12px">矯正歯科を見る</a>
-      </div>
-      <div class="feature-card fade-in fade-in-delay-2">
-        <div class="feature-card__icon">🦷</div>
-        <h3>むし歯を治したい</h3>
-        <p>「歯医者は痛いから苦手…」という方もご安心ください。当院では表面麻酔や電動注射器を使い、痛みに最大限配慮した治療を行います。できるだけ歯を削らない・抜かないMI治療の考え方を大切に、天然の歯を長く残す一般歯科診療を提供しています。</p>
-        <a href="general.html" class="btn btn--outline" style="margin-top:12px">一般歯科を見る</a>
-      </div>
-      <div class="feature-card fade-in">
-        <div class="feature-card__icon">👶</div>
-        <h3>お子さまの歯が心配</h3>
-        <p>「子どもを歯医者に連れていきたいけれど、泣かないか心配…」。女性院長がお子さま一人ひとりのペースに合わせてやさしく対応します。フッ素塗布・シーラント・定期検診を通じて、お子さまの大切な歯の発育をサポート。お母さま・お父さまの治療と一緒にご家族で通えるクリニックです。</p>
-        <a href="pediatric.html" class="btn btn--outline" style="margin-top:12px">小児歯科を見る</a>
-      </div>
-      <div class="feature-card fade-in fade-in-delay-1">
-        <div class="feature-card__icon">🛡️</div>
-        <h3>むし歯を予防したい</h3>
-        <p>「治療が終わったら終わり」ではありません。当院では予防歯科に力を入れ、エアフローを用いた快適なクリーニングと定期検診で、むし歯や歯周病になる前にお口の健康を守ります。恵比寿駅徒歩3分・土曜診療で、定期的に通いやすい環境を整えています。</p>
-        <a href="preventive.html" class="btn btn--outline" style="margin-top:12px">予防歯科を見る</a>
+      <div class="split__text slide-in-right">
+        <span class="en-label">Minish</span>
+        <h2>削らず叶える、<br>理想の白い歯。</h2>
+        <p>「歯の色が気になるけれど、削るのは怖い」「前歯のすき間を手軽に整えたい」。</p>
+        <p>韓国発・16万件超の実績を持つ削らないラミネートベニア「ミニッシュ」。わずか0.3mmの極薄セラミックを貼り付けるだけで、色・形・すき間を自然に美しく。恵比寿エリアでまだ取り扱いの少ない先進治療を、女性院長がセレックで精密に仕上げます。</p>
+        <a href="minish/index.html" class="btn btn--primary btn--arrow">ミニッシュについて詳しく</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 選ばれる5つの理由 -->
-<section class="section section--cream">
+<!-- ========== 選ばれる5つの理由 ========== -->
+<section class="section section--navy">
   <div class="container">
     <div class="section-header fade-in">
-      <span class="section-header__label">5 Reasons</span>
-      <h2>恵比寿ミカ歯科クリニックが選ばれる5つの理由</h2>
+      <span class="en-label" style="color:var(--gold-light)">5 Reasons</span>
+      <h2>恵比寿ミカ歯科が<br>選ばれる理由</h2>
       <div class="section-header__line"></div>
     </div>
     <div class="features">
-      <div class="feature-card fade-in">
+      <div class="feature-card feature-card--dark fade-in">
         <div class="feature-card__number">01</div>
         <div class="feature-card__icon">👩‍⚕️</div>
-        <h3>女性院長だから話しやすい、聞きやすい</h3>
-        <p>「口元の見た目が気になるけれど、男性の先生には相談しづらい…」。当院は女性院長が初診から治療完了まで一貫して担当。お悩みやご希望を丁寧にお伺いし、専門用語を使わないわかりやすい説明を心がけています。審美的な感覚を共有できる女性ドクターだからこそ、理想のゴールを一緒に描けます。</p>
+        <h3>女性院長だから話しやすい</h3>
+        <p>口元のコンプレックスは繊細な悩み。女性院長が初診から完了まで一貫して担当。審美的な感覚を共有できるドクターだから、理想のゴールを一緒に描けます。</p>
       </div>
-      <div class="feature-card fade-in fade-in-delay-1">
+      <div class="feature-card feature-card--dark fade-in fade-in-delay-1">
         <div class="feature-card__number">02</div>
-        <div class="feature-card__icon">🏥</div>
-        <h3>セレック完備 ―― セラミック治療を院内で最短仕上げ</h3>
-        <p>CAD/CAMシステム「セレック」を院内に完備。3Dスキャンで歯型を精密に取得し、その場でセラミックの詰め物・被せ物を設計・作製します。外部の技工所を介さないため、通常2〜3週間かかるセラミック治療を大幅に短縮。何度も通院する負担を減らしながら、天然歯に近い美しい仕上がりを実現します。</p>
+        <div class="feature-card__icon">⚡</div>
+        <h3>セレック完備 ―― 最短当日仕上げ</h3>
+        <p>院長自身がセレックでセラミックを設計・作製。外部技工所を介さないから、スピーディーかつ精密。条件が合えば1回の通院でセラミックの歯が入ります。</p>
       </div>
-      <div class="feature-card fade-in fade-in-delay-2">
+      <div class="feature-card feature-card--dark fade-in fade-in-delay-2">
         <div class="feature-card__number">03</div>
         <div class="feature-card__icon">🔒</div>
-        <h3>全室完全個室 ―― 人目を気にせずリラックス</h3>
-        <p>当院の診療室はすべて完全個室。隣の患者さまの声や治療音が気にならない、落ち着いた空間で治療を受けていただけます。お口の悩みはデリケートなもの。周りを気にせず、ゆっくりとご相談いただける環境は、恵比寿で歯科医院を選ぶ際の大切なポイントです。</p>
+        <h3>全室完全個室</h3>
+        <p>すべての診療室が完全個室。隣の患者さまの声も治療音も気にならない、あなただけのプライベート空間で安心して治療を受けられます。</p>
       </div>
-      <div class="feature-card fade-in">
+      <div class="feature-card feature-card--dark fade-in">
         <div class="feature-card__number">04</div>
         <div class="feature-card__icon">😁</div>
-        <h3>矯正認定医在籍 ―― 専門性の高い矯正治療</h3>
-        <p>矯正歯科の認定医が在籍し、豊富な症例経験に基づいた確かな矯正治療を提供します。ワイヤー矯正・マウスピース矯正(インビザラインなど)に対応し、患者さまのライフスタイルやご希望に合わせた最適な矯正方法をご提案。院長と矯正担当医が連携して、美しさと機能性を兼ね備えた歯並びを目指します。</p>
+        <h3>矯正認定医在籍</h3>
+        <p>豊富な症例経験を持つ矯正認定医が在籍。ワイヤー矯正からマウスピース矯正まで、ライフスタイルに合った最適な方法をご提案します。</p>
       </div>
-      <div class="feature-card fade-in fade-in-delay-1">
+      <div class="feature-card feature-card--dark fade-in fade-in-delay-1">
         <div class="feature-card__number">05</div>
         <div class="feature-card__icon">📍</div>
-        <h3>恵比寿駅東口 徒歩3分・土曜診療で通いやすい</h3>
-        <p>JR山手線・東京メトロ日比谷線「恵比寿駅」東口から徒歩わずか3分の好立地。お仕事帰りやお買い物のついでにも立ち寄りやすいロケーションです。さらに土曜日も診療しているため、平日は忙しいという方にも無理なく通院いただけます。定期検診やクリーニングも続けやすい、通いやすさが自慢のクリニックです。</p>
+        <h3>恵比寿駅 徒歩3分・土曜診療</h3>
+        <p>JR・メトロ恵比寿駅東口から徒歩わずか3分。土曜も診療しているから、仕事帰りにも休日にも無理なく通えます。</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 診療メニュー一覧 -->
+<!-- ========== 数字で見る当院 ========== -->
+<section class="section--sm section--dark">
+  <div class="stats-bar fade-in">
+    <div class="stat">
+      <span class="stat__number">160,000<span class="stat__unit">+</span></span>
+      <div class="stat__label">ミニッシュ世界症例</div>
+    </div>
+    <div class="stat">
+      <span class="stat__number">5<span class="stat__unit">年+</span></span>
+      <div class="stat__label">セレック経験年数</div>
+    </div>
+    <div class="stat">
+      <span class="stat__number">100<span class="stat__unit">%</span></span>
+      <div class="stat__label">完全個室</div>
+    </div>
+    <div class="stat">
+      <span class="stat__number">3<span class="stat__unit">分</span></span>
+      <div class="stat__label">恵比寿駅から</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== お悩み別導線 (Visual Cards) ========== -->
 <section class="section">
   <div class="container">
     <div class="section-header fade-in">
-      <span class="section-header__label">Treatment Menu</span>
-      <h2>診療メニュー</h2>
+      <span class="en-label">Treatment Menu</span>
+      <h2>あなたのお悩みに、<br>最適な治療を。</h2>
       <div class="section-header__line"></div>
     </div>
-    <div class="features">
-      <div class="feature-card fade-in">
-        <h3>ミニッシュ</h3>
-        <p>歯を削らないラミネートベニアで理想の白い歯へ。恵比寿エリアで受けられる先進の審美治療です。</p>
-        <a href="minish/index.html" style="color:var(--gold);text-decoration:underline;display:block;margin-top:8px">詳しく見る →</a>
+    <div class="visual-cards">
+      <div class="visual-card fade-in">
+        <div class="visual-card__img">
+          <div class="img-placeholder img-placeholder--smile" data-label="美しい笑顔の女性"></div>
+          <span class="visual-card__tag">人気No.1</span>
+        </div>
+        <div class="visual-card__body">
+          <h3>歯を美しくしたい</h3>
+          <p>ミニッシュ・セレックセラミック・ホワイトニング。削らない選択肢から最短当日のセラミック治療まで、あなたの理想を叶えます。</p>
+          <a href="esthetic.html" class="visual-card__link">審美歯科を見る</a>
+        </div>
       </div>
-      <div class="feature-card fade-in fade-in-delay-1">
-        <h3>矯正歯科</h3>
-        <p>矯正認定医が在籍。目立ちにくいマウスピース矯正からワイヤー矯正まで、あなたに合った方法をご提案します。</p>
-        <a href="orthodontics/index.html" style="color:var(--gold);text-decoration:underline;display:block;margin-top:8px">詳しく見る →</a>
+      <div class="visual-card fade-in fade-in-delay-1">
+        <div class="visual-card__img">
+          <div class="img-placeholder img-placeholder--treatment" data-label="矯正治療イメージ"></div>
+        </div>
+        <div class="visual-card__body">
+          <h3>歯並びを整えたい</h3>
+          <p>矯正認定医がワイヤー矯正からマウスピース矯正まで幅広く対応。完全個室だから人目も気になりません。</p>
+          <a href="orthodontics/index.html" class="visual-card__link">矯正歯科を見る</a>
+        </div>
       </div>
-      <div class="feature-card fade-in fade-in-delay-2">
-        <h3>審美歯科</h3>
-        <p>セレックによるセラミック治療・ホワイトニングで、笑顔に自信が持てる美しい口元に仕上げます。</p>
-        <a href="esthetic.html" style="color:var(--gold);text-decoration:underline;display:block;margin-top:8px">詳しく見る →</a>
+      <div class="visual-card fade-in fade-in-delay-2">
+        <div class="visual-card__img">
+          <div class="img-placeholder img-placeholder--facility" data-label="清潔な診療室"></div>
+        </div>
+        <div class="visual-card__body">
+          <h3>むし歯・歯が痛い</h3>
+          <p>表面麻酔・極細針・電動注射器で痛みに最大限配慮。歯を削らないカリソルブ治療にも対応しています。</p>
+          <a href="general.html" class="visual-card__link">一般歯科を見る</a>
+        </div>
       </div>
-      <div class="feature-card fade-in">
-        <h3>一般歯科</h3>
-        <p>むし歯・歯周病の治療を、痛みに配慮しながら丁寧に。できるだけ歯を残すMI治療を実践しています。</p>
-        <a href="general.html" style="color:var(--gold);text-decoration:underline;display:block;margin-top:8px">詳しく見る →</a>
+      <div class="visual-card fade-in">
+        <div class="visual-card__img">
+          <div class="img-placeholder img-placeholder--clinic" data-label="やさしい雰囲気の院内"></div>
+        </div>
+        <div class="visual-card__body">
+          <h3>子どもの歯が心配</h3>
+          <p>女性院長がお子さまのペースでやさしく対応。フッ素・シーラント・定期検診で健やかな成長をサポートします。</p>
+          <a href="pediatric.html" class="visual-card__link">小児歯科を見る</a>
+        </div>
       </div>
-      <div class="feature-card fade-in fade-in-delay-1">
-        <h3>小児歯科</h3>
-        <p>女性院長がお子さまのペースに合わせてやさしく対応。ご家族で一緒に通える歯科医院です。</p>
-        <a href="pediatric.html" style="color:var(--gold);text-decoration:underline;display:block;margin-top:8px">詳しく見る →</a>
+      <div class="visual-card fade-in fade-in-delay-1">
+        <div class="visual-card__img">
+          <div class="img-placeholder img-placeholder--treatment" data-label="クリーニングイメージ"></div>
+        </div>
+        <div class="visual-card__body">
+          <h3>予防・クリーニング</h3>
+          <p>エアフローを使った快適なクリーニングで、むし歯・歯周病を未然に防ぐ。治療より予防がすべての始まりです。</p>
+          <a href="preventive.html" class="visual-card__link">予防歯科を見る</a>
+        </div>
       </div>
-      <div class="feature-card fade-in fade-in-delay-2">
-        <h3>予防歯科</h3>
-        <p>エアフローを使った快適なクリーニングと定期検診で、むし歯・歯周病を未然に防ぎます。</p>
-        <a href="preventive.html" style="color:var(--gold);text-decoration:underline;display:block;margin-top:8px">詳しく見る →</a>
-      </div>
-      <div class="feature-card fade-in">
-        <h3>酸蝕症</h3>
-        <p>酸性の飲食物で溶けた歯のケアと予防。早期発見・早期対応で大切な歯を守ります。</p>
-        <a href="acid-erosion.html" style="color:var(--gold);text-decoration:underline;display:block;margin-top:8px">詳しく見る →</a>
+      <div class="visual-card fade-in fade-in-delay-2">
+        <div class="visual-card__img">
+          <div class="img-placeholder img-placeholder--before-after" data-label="ホワイトニングイメージ"></div>
+        </div>
+        <div class="visual-card__body">
+          <h3>歯を白くしたい</h3>
+          <p>オフィスホワイトニング・ホームホワイトニングの2種類から選べます。より長持ちさせたい方にはデュアルがおすすめ。</p>
+          <a href="whitening.html" class="visual-card__link">ホワイトニングを見る</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 医院情報 -->
+<!-- ========== 院長紹介 (Split) ========== -->
+<section class="section section--cream">
+  <div class="container">
+    <div class="doctor-section fade-in">
+      <div class="doctor-section__photo">
+        <div class="img-placeholder img-placeholder--doctor" data-label="院長プロフィール写真" style="aspect-ratio:3/4;border-radius:20px"></div>
+        <div class="doctor-section__photo-accent"></div>
+      </div>
+      <div class="doctor-section__text">
+        <span class="en-label">Doctor's Message</span>
+        <h2>患者さまの「怖い」を<br>「来てよかった」に変える。</h2>
+        <blockquote>
+          「歯医者が怖い」「削られたくない」「見た目が気になるけど誰にも言えない」。そんなお気持ちを、これまでたくさんの患者さまからお聞きしてきました。<br><br>
+          私が大切にしているのは、一人ひとりのお話にじっくり耳を傾けること。そして、できるだけ歯を削らない・痛くない方法で、患者さまの理想に近づけること。<br><br>
+          セレックを自ら操作してセラミックを設計するのも、削らないミニッシュに力を入れているのも、すべて「歯医者が怖い方にこそ、安心して通ってほしい」という想いからです。<br><br>
+          まずは、お話を聞かせてください。
+        </blockquote>
+        <div class="doctor-section__name">
+          恵比寿ミカ歯科クリニック 院長
+          <span>セレック歴5年以上 / 女性歯科医師</span>
+        </div>
+        <a href="clinic/doctor.html" class="btn btn--outline-gold" style="margin-top:24px">院長プロフィール</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 患者さまの声 ========== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="en-label">Voice</span>
+      <h2>患者さまの声</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="testimonials fade-in">
+      <div class="testimonial">
+        <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial__text">ずっと前歯の色がコンプレックスでした。ミニッシュは削らないと聞いて半信半疑でしたが、本当に痛みもなく自然な仕上がりに。もっと早く来ればよかったです。</p>
+        <div class="testimonial__author">
+          <div class="testimonial__avatar">A</div>
+          <div class="testimonial__name">A.T さま<span>30代女性・ミニッシュ</span></div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial__text">銀歯が5本あって笑うのが嫌でした。セレックで当日中に白い歯に変わったときは感動しました。院長先生が直接作ってくれるので色味もぴったりです。</p>
+        <div class="testimonial__author">
+          <div class="testimonial__avatar">S</div>
+          <div class="testimonial__name">S.M さま<span>40代女性・セレックセラミック</span></div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial__text">歯医者が大の苦手でしたが、完全個室で女性の先生が丁寧に説明してくれるので安心できました。注射も全然痛くなくて驚きです。今は定期検診で通っています。</p>
+        <div class="testimonial__author">
+          <div class="testimonial__avatar">K</div>
+          <div class="testimonial__name">K.Y さま<span>20代女性・一般歯科</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 院内ギャラリー ========== -->
 <section class="section section--cream">
   <div class="container">
     <div class="section-header fade-in">
-      <span class="section-header__label">Information</span>
-      <h2>医院情報</h2>
+      <span class="en-label">Gallery</span>
+      <h2>院内のご紹介</h2>
       <div class="section-header__line"></div>
     </div>
-    <div class="fade-in" style="max-width:700px;margin:0 auto">
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>診療時間</th>
-              <th>月</th>
-              <th>火</th>
-              <th>水</th>
-              <th>木</th>
-              <th>金</th>
-              <th>土</th>
-              <th>日祝</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>10:00〜13:00</td>
-              <td>○</td>
-              <td>○</td>
-              <td>○</td>
-              <td>×</td>
-              <td>○</td>
-              <td>○</td>
-              <td>×</td>
-            </tr>
-            <tr>
-              <td>14:30〜19:00</td>
-              <td>○</td>
-              <td>○</td>
-              <td>△</td>
-              <td>×</td>
-              <td>○</td>
-              <td>△</td>
-              <td>×</td>
-            </tr>
-          </tbody>
-        </table>
+    <div class="gallery fade-in">
+      <div class="gallery__item"><div class="img-placeholder img-placeholder--clinic" data-label="受付・待合室" style="aspect-ratio:4/3"></div></div>
+      <div class="gallery__item"><div class="img-placeholder img-placeholder--facility" data-label="完全個室の診療室" style="aspect-ratio:4/3"></div></div>
+      <div class="gallery__item"><div class="img-placeholder img-placeholder--treatment" data-label="セレック（CAD/CAM）" style="aspect-ratio:4/3"></div></div>
+      <div class="gallery__item"><div class="img-placeholder img-placeholder--facility" data-label="カウンセリングルーム" style="aspect-ratio:4/3"></div></div>
+    </div>
+    <div style="text-align:center;margin-top:32px" class="fade-in">
+      <a href="clinic/facility.html" class="btn btn--outline-dark btn--arrow">施設・設備をもっと見る</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 医院情報 ========== -->
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="slide-in-left">
+        <div class="img-placeholder img-placeholder--clinic" data-label="クリニック外観 / Google Map" style="aspect-ratio:4/3;border-radius:20px"></div>
       </div>
-      <p style="font-size:14px;color:#666;margin-top:8px">△ 水曜午後は18:30まで ／ 土曜午後は17:00まで ／ 休診：木曜・日曜・祝日</p>
-      <div style="margin-top:24px">
-        <p><strong>住所：</strong>〒150-0013 東京都渋谷区恵比寿1-22-23</p>
-        <p><strong>アクセス：</strong>恵比寿駅東口 徒歩3分</p>
-        <p style="margin-top:12px"><a href="clinic/access.html" style="color:var(--gold);text-decoration:underline">アクセス・診療時間の詳細はこちら →</a></p>
+      <div class="slide-in-right">
+        <span class="en-label">Information</span>
+        <h2>医院情報</h2>
+        <div style="margin-top:24px">
+          <table style="min-width:auto;box-shadow:none;border-radius:8px;overflow:hidden;width:100%">
+            <thead>
+              <tr><th>診療時間</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th><th>日祝</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>10:00〜13:00</td><td>○</td><td>○</td><td>○</td><td>×</td><td>○</td><td>○</td><td>×</td></tr>
+              <tr><td>14:30〜19:00</td><td>○</td><td>○</td><td>△</td><td>×</td><td>○</td><td>△</td><td>×</td></tr>
+            </tbody>
+          </table>
+          <p class="text-sm" style="color:var(--text-light);margin-top:8px">△ 水曜午後18:30まで / 土曜午後17:00まで / 休診:木・日・祝</p>
+          <div style="margin-top:20px;line-height:2">
+            <p><strong style="color:var(--navy)">住所：</strong>〒150-0013 東京都渋谷区恵比寿1-22-23</p>
+            <p><strong style="color:var(--navy)">アクセス：</strong>恵比寿駅東口 徒歩3分</p>
+          </div>
+          <a href="clinic/access.html" class="btn btn--outline-gold btn--sm btn--arrow" style="margin-top:16px">アクセス詳細</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CTA -->
+<!-- ========== CTA ========== -->
 <section class="cta-section" id="cta">
   <div class="container">
-    <h2>ご予約・お問い合わせ</h2>
-    <p>「歯のことが気になっているけれど、なかなか一歩が踏み出せない」――そんな方こそ、まずはお気軽にご相談ください。恵比寿の女性院長が完全個室で丁寧にお話をお伺いし、あなたに合った治療をご提案いたします。</p>
+    <h2>まずは、お話を聞かせてください。</h2>
+    <p>「気になっているけれど一歩が踏み出せない」その気持ちは自然なことです。<br>女性院長が完全個室で丁寧にお伺いします。無料相談だけでも構いません。</p>
     <div>
-      <a href="tel:03XXXXXXXX" class="btn btn--white btn--lg">📞 03-XXXX-XXXX</a>
-      <a href="#" class="btn btn--primary btn--lg">Web予約はこちら</a>
+      <a href="tel:03XXXXXXXX" class="btn btn--white btn--lg">03-XXXX-XXXX</a>
+      <a href="contact.html" class="btn btn--primary btn--lg">Web予約はこちら</a>
     </div>
     <div class="cta-info">
-      <span>📍 東京都渋谷区恵比寿1-22-23（恵比寿駅東口 徒歩3分）</span>
-      <span>🕐 平日 10:00〜19:00 / 土曜 10:00〜17:00</span>
-      <span>休診: 木曜・日曜・祝日</span>
+      <span>恵比寿駅東口 徒歩3分</span>
+      <span>平日 10:00〜19:00 / 土 10:00〜17:00</span>
+      <span>休診: 木・日・祝</span>
     </div>
   </div>
 </section>
 
-<!-- Footer -->
+<!-- ========== FOOTER ========== -->
 <footer class="footer">
   <div class="container">
     <div class="footer__inner">
       <div class="footer__brand">
         <h3>恵比寿ミカ歯科クリニック</h3>
-        <p>〒150-0013<br>東京都渋谷区恵比寿1-22-23<br>恵比寿駅東口 徒歩3分</p>
+        <span class="footer__brand-en">EBISU MIKA DENTAL CLINIC</span>
+        <p style="margin-top:12px">〒150-0013<br>東京都渋谷区恵比寿1-22-23<br>恵比寿駅東口 徒歩3分</p>
       </div>
       <div class="footer__nav">
         <div class="footer__nav-col">
-          <h4>診療メニュー</h4>
+          <h4>TREATMENT</h4>
           <a href="minish/index.html">ミニッシュ</a>
           <a href="orthodontics/index.html">矯正歯科</a>
           <a href="esthetic.html">審美歯科</a>
+          <a href="whitening.html">ホワイトニング</a>
           <a href="general.html">一般歯科</a>
           <a href="pediatric.html">小児歯科</a>
           <a href="preventive.html">予防歯科</a>
         </div>
         <div class="footer__nav-col">
-          <h4>クリニック情報</h4>
+          <h4>CLINIC</h4>
           <a href="first-visit.html">初めての方へ</a>
           <a href="clinic/index.html">クリニック紹介</a>
-          <a href="clinic/doctor.html">医師紹介</a>
-          <a href="clinic/access.html">アクセス・診療時間</a>
+          <a href="clinic/doctor.html">院長紹介</a>
+          <a href="clinic/access.html">アクセス</a>
           <a href="price.html">料金表</a>
+          <a href="faq.html">よくある質問</a>
+          <a href="contact.html">ご予約</a>
         </div>
       </div>
     </div>
     <div class="footer__bottom">
-      &copy; 2026 恵比寿ミカ歯科クリニック All Rights Reserved.
+      <span>&copy; 2026 恵比寿ミカ歯科クリニック</span>
+      <div class="footer__bottom-links">
+        <a href="privacy.html">プライバシーポリシー</a>
+      </div>
     </div>
   </div>
 </footer>
@@ -326,23 +413,34 @@
 <!-- Sticky CTA (mobile) -->
 <div class="sticky-cta">
   <div class="sticky-cta__inner">
-    <a href="tel:03XXXXXXXX" class="btn btn--outline btn--sm">📞 電話予約</a>
-    <a href="#" class="btn btn--primary btn--sm">Web予約</a>
+    <a href="tel:03XXXXXXXX" class="btn btn--outline-dark btn--sm">電話予約</a>
+    <a href="contact.html" class="btn btn--primary btn--sm">Web予約</a>
   </div>
 </div>
 
-<!-- Scroll to top -->
 <button class="scroll-top" id="scrollTop" aria-label="トップに戻る">↑</button>
 
 <script>
-const header=document.getElementById('header');window.addEventListener('scroll',()=>{header.classList.toggle('scrolled',window.scrollY>50)});
+// Header scroll
+const header=document.getElementById('header');
+window.addEventListener('scroll',()=>header.classList.toggle('scrolled',window.scrollY>50));
+
+// Mobile menu
 const hamburger=document.getElementById('hamburger'),mobileNav=document.getElementById('mobileNav'),closeMenu=document.getElementById('closeMenu');
-hamburger.addEventListener('click',()=>mobileNav.classList.add('open'));closeMenu.addEventListener('click',()=>mobileNav.classList.remove('open'));
+hamburger.addEventListener('click',()=>mobileNav.classList.add('open'));
+closeMenu.addEventListener('click',()=>mobileNav.classList.remove('open'));
 mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));
-const scrollTopBtn=document.getElementById('scrollTop');window.addEventListener('scroll',()=>{scrollTopBtn.classList.toggle('visible',window.scrollY>600)});
+
+// Scroll to top
+const scrollTopBtn=document.getElementById('scrollTop');
+window.addEventListener('scroll',()=>scrollTopBtn.classList.toggle('visible',window.scrollY>600));
 scrollTopBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-const observer=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.1});
-document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+
+// Scroll animations
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('visible')});
+},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.fade-in,.slide-in-left,.slide-in-right,.scale-in').forEach(el=>observer.observe(el));
 </script>
 
 </body>

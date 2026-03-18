@@ -7,19 +7,19 @@
 <meta name="description" content="恵比寿ミカ歯科クリニックからのお知らせ。休診日・診療時間変更・キャンペーン情報・医院の最新ニュースをご案内。恵比寿駅徒歩3分の歯医者です。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <header class="header" id="header">
   <div class="header__inner">
-    <a href="top.html" class="header__logo">
+    <a href="index.html" class="header__logo">
       <div class="header__logo-icon">M</div>
       <div class="header__logo-text">恵比寿ミカ歯科クリニック<span>EBISU MIKA DENTAL CLINIC</span></div>
     </a>
     <nav class="nav">
-      <a href="top.html">トップ</a>
+      <a href="index.html">トップ</a>
       <a href="first-visit.html">初めての方へ</a>
       <a href="clinic/index.html">クリニック紹介</a>
       <a href="minish/index.html">ミニッシュ</a>
@@ -33,7 +33,7 @@
 </header>
 <div class="mobile-nav" id="mobileNav">
   <button class="close-menu" id="closeMenu" aria-label="メニューを閉じる">&times;</button>
-  <a href="top.html">トップ</a>
+  <a href="index.html">トップ</a>
   <a href="first-visit.html">初めての方へ</a>
   <a href="clinic/index.html">クリニック紹介</a>
   <a href="minish/index.html">ミニッシュ</a>
@@ -44,18 +44,33 @@
 </div>
 
 <div class="breadcrumb">
-  <div class="container"><div class="breadcrumb__inner"><a href="top.html">トップ</a><span>›</span><span>お知らせ</span></div></div>
+  <div class="container"><div class="breadcrumb__inner"><a href="index.html">トップ</a><span>›</span><span>お知らせ</span></div></div>
 </div>
 <div class="page-header">
   <div class="container">
+    <span class="en-label">News</span>
     <h1>お知らせ</h1>
     <p>恵比寿ミカ歯科クリニックからの最新情報をお届けします。休診日やキャンペーンの情報はこちらをご確認ください。</p>
   </div>
 </div>
 
+<!-- クリニック写真 -->
+<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <div class="fade-in" style="max-width:760px;margin:0 auto">
+      <div class="img-placeholder img-placeholder--clinic" data-label="恵比寿ミカ歯科クリニック外観" style="aspect-ratio:16/7;border-radius:20px"></div>
+    </div>
+  </div>
+</section>
+
 <!-- お知らせリスト -->
 <section class="section">
   <div class="container">
+    <div class="section-header fade-in">
+      <span class="en-label">Latest Updates</span>
+      <h2>最新のお知らせ</h2>
+      <div class="section-header__line"></div>
+    </div>
     <div class="fade-in" style="max-width:760px;margin:0 auto">
       <div class="price-row" style="border-top:1px solid var(--border)">
         <div>
@@ -107,12 +122,12 @@
     <h2>ご予約・お問い合わせ</h2>
     <p>診療のご予約やご質問など、お気軽にお問い合わせください。</p>
     <div>
-      <a href="tel:03XXXXXXXX" class="btn btn--white btn--lg">📞 03-XXXX-XXXX</a>
+      <a href="tel:03XXXXXXXX" class="btn btn--white btn--lg">03-XXXX-XXXX</a>
       <a href="contact.html" class="btn btn--primary btn--lg">ご予約はこちら</a>
     </div>
     <div class="cta-info">
-      <span>📍 東京都渋谷区恵比寿1-22-23（恵比寿駅東口 徒歩3分）</span>
-      <span>🕐 平日 10:00〜19:00 / 土曜 10:00〜17:00</span>
+      <span>東京都渋谷区恵比寿1-22-23（恵比寿駅東口 徒歩3分）</span>
+      <span>平日 10:00〜19:00 / 土曜 10:00〜17:00</span>
       <span>休診: 木曜・日曜・祝日</span>
     </div>
   </div>
@@ -121,16 +136,39 @@
 <footer class="footer">
   <div class="container">
     <div class="footer__inner">
-      <div class="footer__brand"><h3>恵比寿ミカ歯科クリニック</h3><p>〒150-0013<br>東京都渋谷区恵比寿1-22-23<br>恵比寿駅東口 徒歩3分</p></div>
+      <div class="footer__brand">
+        <h3>恵比寿ミカ歯科クリニック</h3>
+        <span class="footer__brand-en">EBISU MIKA DENTAL CLINIC</span>
+        <p style="margin-top:12px">〒150-0013<br>東京都渋谷区恵比寿1-22-23<br>恵比寿駅東口 徒歩3分</p>
+      </div>
       <div class="footer__nav">
-        <div class="footer__nav-col"><h4>診療メニュー</h4><a href="minish/index.html">ミニッシュ</a><a href="orthodontics/index.html">矯正歯科</a><a href="esthetic.html">審美歯科</a><a href="whitening.html">ホワイトニング</a><a href="implant.html">インプラント</a></div>
-        <div class="footer__nav-col"><h4>医院情報</h4><a href="top.html">トップ</a><a href="first-visit.html">初めての方へ</a><a href="clinic/index.html">クリニック紹介</a><a href="price.html">料金表</a><a href="faq.html">よくある質問</a><a href="contact.html">ご予約・お問い合わせ</a><a href="privacy.html">プライバシーポリシー</a></div>
+        <div class="footer__nav-col">
+          <h4>TREATMENT</h4>
+          <a href="minish/index.html">ミニッシュ</a>
+          <a href="orthodontics/index.html">矯正歯科</a>
+          <a href="esthetic.html">審美歯科</a>
+          <a href="whitening.html">ホワイトニング</a>
+          <a href="general.html">一般歯科</a>
+          <a href="preventive.html">予防歯科</a>
+        </div>
+        <div class="footer__nav-col">
+          <h4>CLINIC</h4>
+          <a href="first-visit.html">初めての方へ</a>
+          <a href="clinic/index.html">クリニック紹介</a>
+          <a href="clinic/doctor.html">院長紹介</a>
+          <a href="clinic/access.html">アクセス</a>
+          <a href="price.html">料金表</a>
+          <a href="contact.html">ご予約</a>
+        </div>
       </div>
     </div>
-    <div class="footer__bottom">&copy; 2026 恵比寿ミカ歯科クリニック All Rights Reserved.</div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 恵比寿ミカ歯科クリニック</span>
+      <div class="footer__bottom-links"><a href="privacy.html">プライバシーポリシー</a></div>
+    </div>
   </div>
 </footer>
-<div class="sticky-cta"><div class="sticky-cta__inner"><a href="tel:03XXXXXXXX" class="btn btn--outline btn--sm">📞 電話予約</a><a href="contact.html" class="btn btn--primary btn--sm">Web予約</a></div></div>
+<div class="sticky-cta"><div class="sticky-cta__inner"><a href="tel:03XXXXXXXX" class="btn btn--outline-dark btn--sm">電話予約</a><a href="contact.html" class="btn btn--primary btn--sm">Web予約</a></div></div>
 <button class="scroll-top" id="scrollTop" aria-label="トップに戻る">↑</button>
 <script>
 const header=document.getElementById('header');window.addEventListener('scroll',()=>{header.classList.toggle('scrolled',window.scrollY>50)});
@@ -139,8 +177,8 @@ hamburger.addEventListener('click',()=>mobileNav.classList.add('open'));closeMen
 mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));
 const scrollTopBtn=document.getElementById('scrollTop');window.addEventListener('scroll',()=>{scrollTopBtn.classList.toggle('visible',window.scrollY>600)});
 scrollTopBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-const observer=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.1});
-document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+const observer=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.fade-in,.slide-in-left,.slide-in-right,.scale-in').forEach(el=>observer.observe(el));
 </script>
 </body>
 </html>

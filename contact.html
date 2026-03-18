@@ -7,29 +7,31 @@
 <meta name="description" content="恵比寿ミカ歯科クリニックのご予約・お問い合わせページ。WEB予約（24時間対応）・お電話・LINEの3つの方法で簡単にご予約いただけます。初めての方も安心の丁寧なご案内。恵比寿駅東口徒歩3分。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <style>
-.form-group{margin-bottom:24px}
-.form-group label{display:block;font-size:14px;font-weight:600;color:var(--navy);margin-bottom:8px}
-.form-group label .required{color:#e74c3c;font-size:12px;margin-left:4px}
-.form-group input,.form-group select,.form-group textarea{width:100%;padding:14px 16px;border:1px solid var(--border);border-radius:var(--radius);font-size:15px;font-family:inherit;transition:var(--transition);background:var(--white)}
-.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(184,146,106,.15)}
-.form-group textarea{min-height:140px;resize:vertical}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-group{margin-bottom:28px}
+.form-group label{display:block;font-size:14px;font-weight:600;color:var(--navy);margin-bottom:10px;letter-spacing:.03em}
+.form-group label .required{display:inline-block;color:#fff;font-size:11px;font-weight:700;background:var(--gold);padding:2px 8px;border-radius:4px;margin-left:8px;vertical-align:middle}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:16px 20px;border:1px solid var(--border);border-radius:12px;font-size:15px;font-family:inherit;transition:var(--transition);background:var(--white)}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 4px rgba(184,146,106,.12)}
+.form-group textarea{min-height:160px;resize:vertical}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 @media(max-width:768px){.form-row{grid-template-columns:1fr}}
+.contact-form-wrap{background:var(--white);border-radius:24px;padding:48px 40px;box-shadow:0 4px 30px rgba(0,0,0,.06);max-width:720px;margin:0 auto}
+@media(max-width:768px){.contact-form-wrap{padding:32px 20px;border-radius:16px}}
 </style>
 </head>
 <body>
 
 <header class="header" id="header">
   <div class="header__inner">
-    <a href="top.html" class="header__logo">
+    <a href="index.html" class="header__logo">
       <div class="header__logo-icon">M</div>
       <div class="header__logo-text">恵比寿ミカ歯科クリニック<span>EBISU MIKA DENTAL CLINIC</span></div>
     </a>
     <nav class="nav">
-      <a href="top.html">トップ</a>
+      <a href="index.html">トップ</a>
       <a href="first-visit.html">初めての方へ</a>
       <a href="clinic/index.html">クリニック紹介</a>
       <a href="minish/index.html">ミニッシュ</a>
@@ -43,7 +45,7 @@
 </header>
 <div class="mobile-nav" id="mobileNav">
   <button class="close-menu" id="closeMenu" aria-label="メニューを閉じる">&times;</button>
-  <a href="top.html">トップ</a>
+  <a href="index.html">トップ</a>
   <a href="first-visit.html">初めての方へ</a>
   <a href="clinic/index.html">クリニック紹介</a>
   <a href="minish/index.html">ミニッシュ</a>
@@ -54,42 +56,52 @@
 </div>
 
 <div class="breadcrumb">
-  <div class="container"><div class="breadcrumb__inner"><a href="top.html">トップ</a><span>›</span><span>ご予約・お問い合わせ</span></div></div>
+  <div class="container"><div class="breadcrumb__inner"><a href="index.html">トップ</a><span>›</span><span>ご予約・お問い合わせ</span></div></div>
 </div>
 <div class="page-header">
   <div class="container">
+    <span class="en-label">Contact</span>
     <h1>ご予約・お問い合わせ</h1>
     <p>初めてのご来院でも安心してお越しいただけるよう、丁寧にご案内いたします。WEB予約・お電話・LINEの3つの方法からお選びください。</p>
   </div>
 </div>
 
+<!-- クリニック外観 -->
+<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <div class="fade-in" style="max-width:800px;margin:0 auto">
+      <div class="img-placeholder img-placeholder--clinic" data-label="恵比寿ミカ歯科クリニック外観・エントランス" style="aspect-ratio:16/7;border-radius:20px"></div>
+    </div>
+  </div>
+</section>
+
 <!-- 3つの予約方法 -->
 <section class="section">
   <div class="container">
     <div class="section-header fade-in">
-      <span class="section-header__label">Reservation</span>
+      <span class="en-label">Reservation</span>
       <h2>ご予約方法</h2>
       <div class="section-header__line"></div>
     </div>
     <div class="features fade-in">
       <div class="feature-card" style="text-align:center">
-        <div class="feature-card__icon" style="margin:0 auto 20px">💻</div>
+        <div class="feature-card__number">01</div>
         <h3>WEB予約（24時間対応）</h3>
         <p>24時間いつでもご予約いただけます。空き状況をリアルタイムで確認でき、ご希望の日時を選んで簡単にお申し込みが可能です。深夜やお仕事の合間にもご利用いただけます。</p>
         <div style="margin-top:20px"><a href="#" class="btn btn--primary btn--sm">WEB予約はこちら</a></div>
       </div>
       <div class="feature-card" style="text-align:center">
-        <div class="feature-card__icon" style="margin:0 auto 20px">📞</div>
+        <div class="feature-card__number">02</div>
         <h3>お電話</h3>
         <p>受付時間内にお電話ください。スタッフが丁寧にご対応いたします。「治療内容について相談してから予約したい」「急に歯が痛くなった」など、お気軽にお電話ください。</p>
         <p style="font-size:22px;font-weight:800;color:var(--navy);margin-top:12px">03-XXXX-XXXX</p>
         <p style="font-size:13px;color:var(--text-light);margin-top:4px">平日 10:00〜19:00 / 土曜 10:00〜17:00</p>
       </div>
       <div class="feature-card" style="text-align:center">
-        <div class="feature-card__icon" style="margin:0 auto 20px">💬</div>
+        <div class="feature-card__number">03</div>
         <h3>LINE予約・相談</h3>
         <p>LINEからもご予約・ご相談が可能です。お友だち追加後にメッセージをお送りいただければ、スタッフが返信いたします。治療に関するちょっとした疑問もお気軽にどうぞ。</p>
-        <div style="margin-top:20px"><a href="#" class="btn btn--outline btn--sm">LINEで予約する</a></div>
+        <div style="margin-top:20px"><a href="#" class="btn btn--outline-dark btn--sm">LINEで予約する</a></div>
       </div>
     </div>
   </div>
@@ -99,67 +111,100 @@
 <section class="section section--cream">
   <div class="container">
     <div class="section-header fade-in">
-      <span class="section-header__label">Contact Form</span>
+      <span class="en-label">Contact Form</span>
       <h2>お問い合わせフォーム</h2>
       <div class="section-header__line"></div>
     </div>
-    <div class="fade-in" style="max-width:680px;margin:0 auto">
-      <form action="#" method="post">
-        <div class="form-row">
-          <div class="form-group">
-            <label>お名前<span class="required">必須</span></label>
-            <input type="text" name="name" placeholder="例: 山田 太郎" required>
+    <div class="fade-in">
+      <div class="contact-form-wrap">
+        <form action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label>お名前<span class="required">必須</span></label>
+              <input type="text" name="name" placeholder="例: 山田 太郎" required>
+            </div>
+            <div class="form-group">
+              <label>フリガナ<span class="required">必須</span></label>
+              <input type="text" name="kana" placeholder="例: ヤマダ タロウ" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>メールアドレス<span class="required">必須</span></label>
+              <input type="email" name="email" placeholder="例: example@mail.com" required>
+            </div>
+            <div class="form-group">
+              <label>お電話番号<span class="required">必須</span></label>
+              <input type="tel" name="tel" placeholder="例: 090-1234-5678" required>
+            </div>
           </div>
           <div class="form-group">
-            <label>フリガナ<span class="required">必須</span></label>
-            <input type="text" name="kana" placeholder="例: ヤマダ タロウ" required>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label>メールアドレス<span class="required">必須</span></label>
-            <input type="email" name="email" placeholder="例: example@mail.com" required>
+            <label>ご予約希望日</label>
+            <input type="date" name="date">
           </div>
           <div class="form-group">
-            <label>お電話番号<span class="required">必須</span></label>
-            <input type="tel" name="tel" placeholder="例: 090-1234-5678" required>
+            <label>お問い合わせ内容<span class="required">必須</span></label>
+            <select name="category" required>
+              <option value="">選択してください</option>
+              <option value="reservation">診療のご予約</option>
+              <option value="consultation">無料カウンセリング</option>
+              <option value="question">治療についてのご質問</option>
+              <option value="other">その他</option>
+            </select>
           </div>
+          <div class="form-group">
+            <label>メッセージ</label>
+            <textarea name="message" placeholder="ご質問やご希望がありましたらご記入ください。"></textarea>
+          </div>
+          <div style="text-align:center;margin-top:36px">
+            <button type="submit" class="btn btn--primary btn--lg">送信する</button>
+          </div>
+        </form>
+        <div class="note" style="margin-top:28px">
+          <strong>※</strong> このフォームは仮設置です。実際の送信処理はバックエンドの設定が必要です。お急ぎの方はお電話でのご予約をおすすめいたします。<br>
+          <strong>※</strong> フォーム送信後、2営業日以内にご連絡いたします。もし返信がない場合は、お電話にてお問い合わせください。
         </div>
-        <div class="form-group">
-          <label>ご予約希望日</label>
-          <input type="date" name="date">
-        </div>
-        <div class="form-group">
-          <label>お問い合わせ内容<span class="required">必須</span></label>
-          <select name="category" required>
-            <option value="">選択してください</option>
-            <option value="reservation">診療のご予約</option>
-            <option value="consultation">無料カウンセリング</option>
-            <option value="question">治療についてのご質問</option>
-            <option value="other">その他</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label>メッセージ</label>
-          <textarea name="message" placeholder="ご質問やご希望がありましたらご記入ください。"></textarea>
-        </div>
-        <div style="text-align:center;margin-top:32px">
-          <button type="submit" class="btn btn--primary btn--lg">送信する</button>
-        </div>
-      </form>
-      <div class="note" style="margin-top:24px">
-        <strong>※</strong> このフォームは仮設置です。実際の送信処理はバックエンドの設定が必要です。お急ぎの方はお電話でのご予約をおすすめいたします。<br>
-        <strong>※</strong> フォーム送信後、2営業日以内にご連絡いたします。もし返信がない場合は、お電話にてお問い合わせください。
       </div>
     </div>
   </div>
 </section>
 
-<!-- ご来院前のお願い -->
+<!-- アクセスマップ -->
 <section class="section">
   <div class="container">
     <div class="section-header fade-in">
-      <span class="section-header__label">Before Visit</span>
+      <span class="en-label">Access</span>
+      <h2>アクセス</h2>
+      <div class="section-header__line"></div>
+    </div>
+    <div class="split">
+      <div class="split__img-wrap slide-in-left">
+        <div class="split__img"><div class="img-placeholder img-placeholder--facility" data-label="Googleマップ / アクセスマップ" style="aspect-ratio:4/3"></div></div>
+      </div>
+      <div class="split__text slide-in-right">
+        <h3 style="font-size:18px;font-weight:700;color:var(--navy);margin-bottom:16px">恵比寿ミカ歯科クリニック</h3>
+        <p style="line-height:2;margin-bottom:16px">〒150-0013<br>東京都渋谷区恵比寿1-22-23</p>
+        <p style="line-height:2;margin-bottom:16px"><strong>JR恵比寿駅 東口</strong> 徒歩3分<br><strong>東京メトロ日比谷線 恵比寿駅</strong> 1番出口 徒歩4分</p>
+        <p style="line-height:2"><strong>診療時間</strong><br>平日 10:00〜19:00 / 土曜 10:00〜17:00<br>休診: 木曜・日曜・祝日</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 受付イメージ -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="fade-in" style="max-width:800px;margin:0 auto">
+      <div class="img-placeholder img-placeholder--facility" data-label="清潔感のある受付・待合スペース" style="aspect-ratio:16/7;border-radius:20px"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ご来院前のお願い -->
+<section class="section section--cream">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="en-label">Before Visit</span>
       <h2>ご来院前のお願い</h2>
       <div class="section-header__line"></div>
     </div>
@@ -196,12 +241,12 @@
     <h2>初めてで不安な方もご安心ください</h2>
     <p>「歯医者は久しぶりで不安」「どんな治療が必要かわからない」――そんな方も大丈夫です。まずはお話をお伺いし、治療の必要性や選択肢を丁寧にご説明いたします。無理に治療を進めることはありませんので、ご安心ください。</p>
     <div>
-      <a href="tel:03XXXXXXXX" class="btn btn--white btn--lg">📞 03-XXXX-XXXX</a>
+      <a href="tel:03XXXXXXXX" class="btn btn--white btn--lg">03-XXXX-XXXX</a>
       <a href="#" class="btn btn--primary btn--lg">WEB予約</a>
     </div>
     <div class="cta-info">
-      <span>📍 東京都渋谷区恵比寿1-22-23（恵比寿駅東口 徒歩3分）</span>
-      <span>🕐 平日 10:00〜19:00 / 土曜 10:00〜17:00</span>
+      <span>東京都渋谷区恵比寿1-22-23（恵比寿駅東口 徒歩3分）</span>
+      <span>平日 10:00〜19:00 / 土曜 10:00〜17:00</span>
       <span>休診: 木曜・日曜・祝日</span>
     </div>
   </div>
@@ -210,16 +255,39 @@
 <footer class="footer">
   <div class="container">
     <div class="footer__inner">
-      <div class="footer__brand"><h3>恵比寿ミカ歯科クリニック</h3><p>〒150-0013<br>東京都渋谷区恵比寿1-22-23<br>恵比寿駅東口 徒歩3分</p></div>
+      <div class="footer__brand">
+        <h3>恵比寿ミカ歯科クリニック</h3>
+        <span class="footer__brand-en">EBISU MIKA DENTAL CLINIC</span>
+        <p style="margin-top:12px">〒150-0013<br>東京都渋谷区恵比寿1-22-23<br>恵比寿駅東口 徒歩3分</p>
+      </div>
       <div class="footer__nav">
-        <div class="footer__nav-col"><h4>診療メニュー</h4><a href="minish/index.html">ミニッシュ</a><a href="orthodontics/index.html">矯正歯科</a><a href="esthetic.html">審美歯科</a><a href="whitening.html">ホワイトニング</a><a href="implant.html">インプラント</a></div>
-        <div class="footer__nav-col"><h4>医院情報</h4><a href="top.html">トップ</a><a href="first-visit.html">初めての方へ</a><a href="clinic/index.html">クリニック紹介</a><a href="price.html">料金表</a><a href="faq.html">よくある質問</a><a href="contact.html">ご予約・お問い合わせ</a><a href="privacy.html">プライバシーポリシー</a></div>
+        <div class="footer__nav-col">
+          <h4>TREATMENT</h4>
+          <a href="minish/index.html">ミニッシュ</a>
+          <a href="orthodontics/index.html">矯正歯科</a>
+          <a href="esthetic.html">審美歯科</a>
+          <a href="whitening.html">ホワイトニング</a>
+          <a href="general.html">一般歯科</a>
+          <a href="preventive.html">予防歯科</a>
+        </div>
+        <div class="footer__nav-col">
+          <h4>CLINIC</h4>
+          <a href="first-visit.html">初めての方へ</a>
+          <a href="clinic/index.html">クリニック紹介</a>
+          <a href="clinic/doctor.html">院長紹介</a>
+          <a href="clinic/access.html">アクセス</a>
+          <a href="price.html">料金表</a>
+          <a href="contact.html">ご予約</a>
+        </div>
       </div>
     </div>
-    <div class="footer__bottom">&copy; 2026 恵比寿ミカ歯科クリニック All Rights Reserved.</div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 恵比寿ミカ歯科クリニック</span>
+      <div class="footer__bottom-links"><a href="privacy.html">プライバシーポリシー</a></div>
+    </div>
   </div>
 </footer>
-<div class="sticky-cta"><div class="sticky-cta__inner"><a href="tel:03XXXXXXXX" class="btn btn--outline btn--sm">📞 電話予約</a><a href="#" class="btn btn--primary btn--sm">Web予約</a></div></div>
+<div class="sticky-cta"><div class="sticky-cta__inner"><a href="tel:03XXXXXXXX" class="btn btn--outline-dark btn--sm">電話予約</a><a href="contact.html" class="btn btn--primary btn--sm">Web予約</a></div></div>
 <button class="scroll-top" id="scrollTop" aria-label="トップに戻る">↑</button>
 <script>
 const header=document.getElementById('header');window.addEventListener('scroll',()=>{header.classList.toggle('scrolled',window.scrollY>50)});
@@ -228,8 +296,8 @@ hamburger.addEventListener('click',()=>mobileNav.classList.add('open'));closeMen
 mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));
 const scrollTopBtn=document.getElementById('scrollTop');window.addEventListener('scroll',()=>{scrollTopBtn.classList.toggle('visible',window.scrollY>600)});
 scrollTopBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-const observer=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.1});
-document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+const observer=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.fade-in,.slide-in-left,.slide-in-right,.scale-in').forEach(el=>observer.observe(el));
 </script>
 </body>
 </html>
